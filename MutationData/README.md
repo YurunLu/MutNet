@@ -1,0 +1,3 @@
+Prepare input file in the `./data`: MutNet takes a `.csv` file as input, with which each line shoud have at least 4 columns: `Gene`, `Tumor_Sample`, `Tumor_Type`, `Variant_Classification`. A sample input data can be download from http://karchinlab.org/data/Protocol/pancan-mutation-set-from-Tokheim-2016.txt.gz.
+
+If `Use_Triats` in the `arg_file` is set to `True`, a file with information of samples should also be contained, which should have at least 2 columns: `sample`, `Type`, `MutNum`.

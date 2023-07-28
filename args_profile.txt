@@ -1,0 +1,14 @@
+Mutation_file	./MutationData/Pan cancer.csv
+Pathway_Dir	./pathways
+PPI_file	./PPI/physicalppiSTRING.txt
+Result_Path	./Results/PanCancer/
+Source_Path	./Results/PanCancer/
+Windowize	3
+EmbedDim	128
+WalkLen	10
+WalkNum	10
+Use_Triats	./MutationData/Sample_info.csv
+Use_Drugs	FALSE
+With_Variants	FALSE
+Result_note	Default
+Kernel	8
